@@ -1,0 +1,42 @@
+.topbarContainer{
+    width: 100%;
+    background-color: #15507a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.logo{
+    height: 122px;
+    width: 122px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.topbarLeft{
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 0;
+}
+
+.topbarLeft p{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.topbarRight{
+    flex: 6;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    
+}
+.topbarRight a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
